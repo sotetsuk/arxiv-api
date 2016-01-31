@@ -1,4 +1,4 @@
-package main
+package arxiv-api
 
 import (
 	"fmt"
