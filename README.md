@@ -3,16 +3,17 @@ Call arXiv api. http://arxiv.org/help/api/user-manual
 
 # Install & Try it
 
+Assume that `$GOPATH` is set and `$PATH` includes `$GOPATH/bin`.
+
 ```
-$ git clone https://github.com/sotetsuk/arxiv-api.git
-$ go build arxiv-api.go
-$ ./arxiv-go all:electron
+$ go get github.com/sotetsuk/arxiv-api
+$ arxiv-api all:electron
 ```
 
 # Usage
 
 ```
-$ ./arxiv-api --help
+$ arxiv-api --help
 Call arXiv api. http://arxiv.org/help/api/user-manual
 
 Usage:
